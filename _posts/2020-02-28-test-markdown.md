@@ -13,7 +13,7 @@ I was interested in investing in calls and puts, but I was not sure which was th
 **This was the first time I did webscrapping**
 
 ## Lets look at the data
-I ussualy use bullmarketbrokers as my main broker
+I ussually use bullmarketbrokers as my main broker
 
 In a normal day we can see a table like this one for the stock market
 
