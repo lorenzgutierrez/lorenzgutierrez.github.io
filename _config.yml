@@ -4,7 +4,7 @@
 # the initial set up you won't need to come back to this file often.
 
 # --- Required options --- #
-
+BASE_PATH: /RICENCODE
 # Name of website
 title: Lorenzo Gutierrez 
 

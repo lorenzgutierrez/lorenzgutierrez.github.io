@@ -1,12 +1,28 @@
 ---
 layout: post
-title: Flake it till you make it
-subtitle: Excerpt from Soulshaping by Jeff Brown
+title: Sindy
+subtitle: Classificator using LASSO for clusters neurons signals
 cover-img: /assets/img/path.jpg
+gh-repo: lorenzgutierrez/Sindy
+gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
 tags: [books, test]
 ---
+
+My PhD director developed a beautiful algorithm named `Wave_clus` writen in matlab that basically clusterizes the signals comming from electrodes in brain's patients in order to diferentiate the activity of those neurons. The problem with this algorithm is that can't decide what "cluster" is effectively a neuron cluster or a noise cluster.
+
+Since we alredy have a big database of clusters we started to label those that were neuron clusters and those that weren t. The idea of this project was to use the fact the neuronal acitvity is easily simulated and charactherized by a few parameters of simple models. The hypothesis was that the value of those parameters would allow us to diferenciate noise from neuron activity.
+
+We used a novel aproach named `Sparse Algorithm of Non-linear Dynamics System` with a LASSO regressor in order to find the dinamics of our database. Altough this was a very interesting approach and I learnt a lot, I could'nt make it work.
+
+## The data
+In the next plot you can see neuron clusters (Cluster 1) and noisy clusters (Cluster 2,3) from one of the recordings fo neural activity (same electrode).
+![Figure 1](/assets/Figuras/Clusters_example.png)
+
+While the standard deviation, the max amplitude of the cluster and some other features give information about if a cluster is noise or not, this project used only the average signal of each cluster. Normalizing and using `Hierarchical clustering` I grouped those neuron cluster who shared similarities. The results below
+![Figure 2](/assets/Figuras/Hierarchical_clustering.png)
+
 
 Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
 
