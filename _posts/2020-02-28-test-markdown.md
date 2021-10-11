@@ -30,15 +30,16 @@ The volatility of each stock is not something that you can obtain from the broke
 
 ![Figure 1-3](/assets/Figuras/Reporte.png "Title"){: .mx-auto.d-block :}
 
+## The scripts
+All the data is gathered and stored locally by simply running *Data_opciones.py*
 
-
-Here's a code chunk:
+Later, by running *Opciones.py* the output is like follows
 
 ~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+Opcion  Venta  Target Vencmt.     PA     Vol  Teorico    %VT
+12    BMA   0.30   250.0      OC  250.10  0.5009     5.67   5.29
+80    YPF   6.00   620.0      OC  734.25  0.4261   116.49   5.15
+91    YPF   0.05   800.0      OC  734.25  0.4261     0.40  12.50
 ~~~
 
 And here is the same code with syntax highlighting:
