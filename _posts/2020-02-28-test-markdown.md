@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+title: Black-Scholes
+subtitle: Python werbscrapping script to make investments
+gh-repo: https://github.com/lorenzgutierrez/Black-Scholes
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+I was interested in investing in calls and puts, but I was not sure which was the amount of money I should be offering for them. That is how I came with the [Black Scholes equation](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model). I made a script that basically connects with a broker API and gets information about calls and puts, the current price of the stock market, and volatility. Later, it stores all the info and perform the calculations using the Black Scholes formula. Finally it displays which calls (puts) are being sold for less than the BS formula.
 
 **Here is some bold text**
 
