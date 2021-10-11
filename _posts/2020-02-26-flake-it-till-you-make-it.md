@@ -23,6 +23,19 @@ In the next plot you can see neuron clusters (Cluster 1) and noisy clusters (Clu
 While the standard deviation, the max amplitude of the cluster and some other features give information about if a cluster is noise or not, this project used only the average signal of each cluster. Normalizing and using `Hierarchical clustering` I grouped those neuron cluster who shared similarities. The results below:
 ![Figure 2](/assets/Figuras/Hierarchical_clustering.png)
 
+## Embeddings
+One of the most important concepts for this project was that of *embeddings*. Since Sindy requires full knowledge of the *phase space*, an embedding is the way you can construct the former via partial observation of the phenomena (in this case, the partial observation was the mean signal cluster). Below is a figure of the aproximated phase space recreated from one of the clusters we got.
+![Figure 3](/assets/Figuras/Embeddings.png)
+
+## Sindy
+Sindy is a novel framework to discover governing equations underlying a dynamical system simply from data measurements, leveraging advances in sparsity techniques and machine learning. The resulting models are parsimonious, balancing model complexity with descriptive ability while avoiding overfitting. There are many critical data-driven problems, such as understanding cognition from neural recordings, inferring climate patterns, determining stability of financial markets, predicting and suppressing the spread of disease, and controlling turbulence for greener transportation and energy. With abundant data and elusive laws, data-driven discovery of dynamics will continue to play an important role in these efforts.
+
+Literally, Sindy is a framework that fits models to data. The parameter values of that model is what we were looking for. In this case, our model was of the form
+
+$$\dot{x} = y$$
+$$\dot{y} = a + bx + cy + dxy + e y^2 + x^2y$$
+
+as previous research showed that with this model many neuronal dynamics should be contained for different values of the parameters
 
 Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
 
