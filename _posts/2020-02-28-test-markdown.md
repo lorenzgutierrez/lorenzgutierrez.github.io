@@ -12,8 +12,12 @@ I was interested in investing in calls and puts, but I was not sure which was th
 
 **This was the first time I did webscrapping**
 
-## here is a secondary
+## Lets look at the data
+I ussualy use bullmarketbrokers as my main broker
 
+In a normal day we can see a table like this one for the stock market
+
+![Figure 1-1](/assets/Figuras/BS2.png "Title"){: .mx-auto.d-block :}
 Here's a useless table:
 
 | Number | Next number | Previous number |
@@ -24,13 +28,13 @@ Here's a useless table:
 | Two | Three | One |
 
 
-How about a yummy crepe?
+and like this for the calls and puts
 
 sdsd
 
 It can also be centered!
 
-![Figure 1-1](/assets/Figuras/BS1.png "Title"){: .mx-auto.d-block :}
+![Figure 1-2](/assets/Figuras/BS1.png "Title"){: .mx-auto.d-block :}
 
 Here's a code chunk:
 
