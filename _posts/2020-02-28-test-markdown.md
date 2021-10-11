@@ -26,7 +26,7 @@ Here's a useless table:
 
 How about a yummy crepe?
 
-sdsds
+sdsd
 
 It can also be centered!
 
