@@ -31,6 +31,8 @@ The volatility of each stock is not something that you can obtain from the broke
 ![Figure 1-3](/assets/Figuras/Reporte.png "Title"){: .mx-auto.d-block :}
 
 ## The scripts
+I made use of `pandas`,`numpy`, `math` for data analysis, and `request`,`BeautifulSoup` for webscrapping.
+
 All the data is gathered and stored locally by simply running *Data_opciones.py*
 
 Later, by running *Opciones.py* the output is like follows
