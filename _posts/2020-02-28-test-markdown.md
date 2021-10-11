@@ -26,11 +26,11 @@ Here's a useless table:
 
 How about a yummy crepe?
 
-
+sdsds
 
 It can also be centered!
 
-![Figure 1-1](https://github.com/lorenzgutierrez/lorenzgutierrez.github.io/blob/gh-pages/_Figuras/BS1.png "Figure 1-1"){: .mx-auto.d-block :}
+![Figure 1-1](Figuras/BS1.png){: .mx-auto.d-block :}
 
 Here's a code chunk:
 
