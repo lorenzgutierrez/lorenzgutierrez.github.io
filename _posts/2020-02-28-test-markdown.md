@@ -2,7 +2,7 @@
 layout: post
 title: Black-Scholes
 subtitle: Python werbscrapping script to make investments
-gh-repo: https://github.com/lorenzgutierrez/Black-Scholes
+gh-repo: lorenzgutierrez/Black-Scholes
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: false
