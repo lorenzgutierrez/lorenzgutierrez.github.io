@@ -30,7 +30,7 @@ sdsds
 
 It can also be centered!
 
-![Figure 1-1](_Figuras/BS1.png){: .mx-auto.d-block :}
+![Figure 1-1](/assets/Figuras/BS1.png){: .mx-auto.d-block :}
 
 Here's a code chunk:
 
