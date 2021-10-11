@@ -28,7 +28,7 @@ So at the end we have almost all the data required to perform the calculations u
 ## Volatility
 The volatility of each stock is not something that you can obtain from the broker. There are some [websites](https://www.iamc.com.ar/informediario/) that continously publish reports about stocks. So the script downloads the report (.pdf) and extracts the volatility of the last 52 weeks for all the main stocks and appends them to the data we already got.
 
-![Figure 1-3](/assets/Figuras/Reporte.png "Title){: .mx-auto.d-block :}
+![Figure 1-3](/assets/Figuras/Reporte.png "Title"){: .mx-auto.d-block :}
 
 
 
