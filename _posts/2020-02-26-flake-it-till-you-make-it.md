@@ -20,7 +20,7 @@ We used a novel aproach named `Sparse Algorithm of Non-linear Dynamics System` w
 In the next plot you can see neuron clusters (Cluster 1) and noisy clusters (Cluster 2,3) from one of the recordings fo neural activity (same electrode).
 ![Figure 1](/assets/Figuras/Clusters_example.png)
 
-While the standard deviation, the max amplitude of the cluster and some other features give information about if a cluster is noise or not, this project used only the average signal of each cluster. Normalizing and using `Hierarchical clustering` I grouped those neuron cluster who shared similarities. The results below
+While the standard deviation, the max amplitude of the cluster and some other features give information about if a cluster is noise or not, this project used only the average signal of each cluster. Normalizing and using `Hierarchical clustering` I grouped those neuron cluster who shared similarities. The results below:
 ![Figure 2](/assets/Figuras/Hierarchical_clustering.png)
 
 
