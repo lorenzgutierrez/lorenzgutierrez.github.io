@@ -42,38 +42,7 @@ Opcion  Venta  Target Vencmt.     PA     Vol  Teorico    %VT
 91    YPF   0.05   800.0      OC  734.25  0.4261     0.40  12.50
 ~~~
 
-And here is the same code with syntax highlighting:
+Personally I would not invest in a day like this one, the market is having a very bad time these months.
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+## To Do
+I consider this project to be finished.
