@@ -30,7 +30,7 @@ How about a yummy crepe?
 
 It can also be centered!
 
-![Crepe](_Figuras/BS1.png){: .mx-auto.d-block :}
+![Crepe](ttps://raw.github.com/lorenzgutierrez/lorenzgutierrez.github.io/_Figuras/BS1.png "Figure 1-1"){: .mx-auto.d-block :}
 
 Here's a code chunk:
 
