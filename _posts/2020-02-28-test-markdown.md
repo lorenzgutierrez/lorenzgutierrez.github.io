@@ -12,7 +12,7 @@ I was interested in investing in calls and puts, but I was not sure which was th
 
 **This was the first time I did webscrapping**
 
-##ere is a secondary
+## here is a secondary
 
 Here's a useless table:
 
