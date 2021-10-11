@@ -12,7 +12,7 @@ I was interested in investing in calls and puts, but I was not sure which was th
 
 **This was the first time I did webscrapping**
 
-## Here is a secondary heading
+## Here is a secondary
 
 Here's a useless table:
 
