@@ -34,8 +34,16 @@ Literally, Sindy is a framework that fits models to data. The parameter values o
 
 ![Figure 4](<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{equation}&space;\begin{align*}&space;\dot{x}&space;&&space;=&space;y&space;\\&space;\dot{y}&space;&&space;=&space;a&space;&plus;&space;bx&space;&plus;&space;cy&space;&plus;&space;dxy&space;&plus;&space;e&space;y^2&space;&plus;&space;x^2y&space;\end{align}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{equation}&space;\begin{align*}&space;\dot{x}&space;&&space;=&space;y&space;\\&space;\dot{y}&space;&&space;=&space;a&space;&plus;&space;bx&space;&plus;&space;cy&space;&plus;&space;dxy&space;&plus;&space;e&space;y^2&space;&plus;&space;x^2y&space;\end{align}&space;\end{equation}" title="\begin{equation} \begin{align*} \dot{x} & = y \\ \dot{y} & = a + bx + cy + dxy + e y^2 + x^2y \end{align} \end{equation}" /></a>)
 
+as previous research showed that with this model many neuronal dynamics should be contained for different values of the parameters.
 
-as previous research showed that with this model many neuronal dynamics should be contained for different values of the parameters
+## Results
+While the parameters of the model were determinated for each cluster, the solutions were highly unstable, leading to a bad predictor for new data. Besides that, I was surprised to see how easy and powerful Sindy is, as is clear that the results are close enough to the true solution in the parameter space. I used an interpolation of the signals to see if an stable solution to the dynamics could be obtained, but there were not significal improvements. 
+![Figure 5](/assets/Figuras/Sindy_result.png)
+
+##To do
+I am quite sure that this SHOULD work, probably expending more time in this project will give better results. Probably another model could be used. Instead of using LASSO other method may improve the stability of the solution.
+
+
 
 Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who hit me, no one would say that I had a commitment problem. But if I walk away from a seemingly secure route because my soul has other ideas, I am a flake?
 
