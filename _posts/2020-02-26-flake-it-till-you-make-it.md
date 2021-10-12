@@ -25,6 +25,7 @@ While the standard deviation, the max amplitude of the cluster and some other fe
 
 ## Embeddings
 One of the most important concepts for this project was that of *embeddings*. Since Sindy requires full knowledge of the *phase space*, an embedding is the way you can construct the former via partial observation of the phenomena (in this case, the partial observation was the mean signal cluster). Below is a figure of the aproximated phase space recreated from one of the clusters we got.
+
 ![Figure 3](/assets/Figuras/Embedding.png)
 
 ## Sindy
