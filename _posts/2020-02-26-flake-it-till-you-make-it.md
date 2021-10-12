@@ -33,7 +33,7 @@ Sindy is a novel framework to discover governing equations underlying a dynamica
 
 Literally, Sindy is a framework that fits models to data. The parameter values of that model is what we were looking for. In this case, our model was of the form
 
-![equation](<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{equation}&space;\begin{align*}&space;\dot{x}&space;&&space;=&space;y&space;\\&space;\dot{y}&space;&&space;=&space;a&space;&plus;&space;bx&space;&plus;&space;cy&space;&plus;&space;dxy&space;&plus;&space;e&space;y^2&space;&plus;&space;x^2y&space;\end{align}&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{equation}&space;\begin{align*}&space;\dot{x}&space;&&space;=&space;y&space;\\&space;\dot{y}&space;&&space;=&space;a&space;&plus;&space;bx&space;&plus;&space;cy&space;&plus;&space;dxy&space;&plus;&space;e&space;y^2&space;&plus;&space;x^2y&space;\end{align}&space;\end{equation}" title="\begin{equation} \begin{align*} \dot{x} & = y \\ \dot{y} & = a + bx + cy + dxy + e y^2 + x^2y \end{align} \end{equation}" /></a>)
+![Figure 4](/assets/Figuras/Sindy_equation.png)
 
 as previous research showed that with this model many neuronal dynamics should be contained for different values of the parameters.
 
