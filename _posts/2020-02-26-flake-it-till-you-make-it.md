@@ -38,9 +38,10 @@ as previous research showed that with this model many neuronal dynamics should b
 
 ## Results
 While the parameters of the model were determinated for each cluster, the solutions were highly unstable, leading to a bad predictor for new data. Besides that, I was surprised to see how easy and powerful Sindy is, as is clear that the results are close enough to the true solution in the parameter space. I used an interpolation of the signals to see if an stable solution to the dynamics could be obtained, but there were not significal improvements. 
+
 ![Figure 5](/assets/Figuras/Sindy_result.png)
 
-##To do
+## To do
 I am quite sure that this SHOULD work, probably expending more time in this project will give better results. Probably another model could be used. Instead of using LASSO other method may improve the stability of the solution.
 
 
