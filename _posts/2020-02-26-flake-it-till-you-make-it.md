@@ -25,7 +25,7 @@ While the standard deviation, the max amplitude of the cluster and some other fe
 
 ## Embeddings
 One of the most important concepts for this project was that of *embeddings*. Since Sindy requires full knowledge of the *phase space*, an embedding is the way you can construct the former via partial observation of the phenomena (in this case, the partial observation was the mean signal cluster). Below is a figure of the aproximated phase space recreated from one of the clusters we got.
-![Figure 3](/assets/Figuras/Embeddings.png)
+![Figure 3](/assets/Figuras/Embedding.png)
 
 ## Sindy
 Sindy is a novel framework to discover governing equations underlying a dynamical system simply from data measurements, leveraging advances in sparsity techniques and machine learning. The resulting models are parsimonious, balancing model complexity with descriptive ability while avoiding overfitting. There are many critical data-driven problems, such as understanding cognition from neural recordings, inferring climate patterns, determining stability of financial markets, predicting and suppressing the spread of disease, and controlling turbulence for greener transportation and energy. With abundant data and elusive laws, data-driven discovery of dynamics will continue to play an important role in these efforts.
