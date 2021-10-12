@@ -12,7 +12,7 @@ tags: [Sindy, Data analysis, Lasso, Clustering, Time signals]
 
 My PhD director developed a beautiful algorithm named `Wave_clus` writen in matlab that basically clusterizes the signals comming from electrodes in brain's patients in order to diferentiate the activity of those neurons. The problem with this algorithm is that can't decide what "cluster" is effectively a neuron cluster or a noise cluster.
 
-Since we alredy have a big database of clusters we started to label those that were neuron clusters and those that weren't. The idea of this project was to use the fact the neuronal acitvity is easily simulated and charactherized by a few parameters of simple models. The hypothesis was that the value of those parameters would allow us to diferenciate noise from neuron activity.
+Since we alredy have a big database of clusters we started to label those that were neuron clusters and those that weren t. The idea of this project was to use the fact the neuronal acitvity is easily simulated and charactherized by a few parameters of simple models. The hypothesis was that the value of those parameters would allow us to diferenciate noise from neuron activity.
 
 We used a novel aproach named `Sparse Algorithm of Non-linear Dynamics System` with a LASSO regressor in order to find the dinamics of our database. Altough this was a very interesting approach and I learnt a lot, I could'nt make it work.
 
@@ -33,11 +33,9 @@ Sindy is a novel framework to discover governing equations underlying a dynamica
 
 Literally, Sindy is a framework that fits models to data. The parameter values of that model is what we were looking for. In this case, our model was of the form
 
-![Figure 4](/assets/Figuras/Sindy_equation.png)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\begin{equation}&space;\dot{x}&space;=&space;y&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\begin{equation}&space;\dot{x}&space;=&space;y&space;\end{equation}" title="\begin{equation} \dot{x} = y \end{equation}" /></a>
 
-and
-
-![Figure 5](/assets/Figuras/Sindy_equation2.png)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\begin{equation}&space;\dot{y}&space;=&space;a&space;&plus;&space;bx&space;&plus;&space;cy&space;&plus;&space;dxy&space;&plus;&space;e&space;y^2&space;&plus;&space;x^2y&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\begin{equation}&space;\dot{y}&space;=&space;a&space;&plus;&space;bx&space;&plus;&space;cy&space;&plus;&space;dxy&space;&plus;&space;e&space;y^2&space;&plus;&space;x^2y&space;\end{equation}" title="\begin{equation} \dot{y} = a + bx + cy + dxy + e y^2 + x^2y \end{equation}" /></a>
 
 as previous research showed that with this model many neuronal dynamics should be contained for different values of the parameters.
 
