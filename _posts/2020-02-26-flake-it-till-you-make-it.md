@@ -17,6 +17,8 @@ Since we alredy have a big database of clusters we started to label those that w
 We used a novel aproach named `Sparse Algorithm of Non-linear Dynamics System` with a LASSO regressor in order to find the dinamics of our database. Altough this was a very interesting approach and I learnt a lot, I could'nt make it work.
 
 ## The data
+I made all the implementation using `jupyter lab` and `python`.
+
 In the next plot you can see neuron clusters (Cluster 1) and noisy clusters (Cluster 2,3) from one of the recordings fo neural activity (same electrode).
 ![Figure 1](/assets/Figuras/Clusters_example.png)
 
