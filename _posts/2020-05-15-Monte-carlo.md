@@ -12,7 +12,7 @@ This was perhaps the first proper simulation I did. Me and other students implem
 
 ## PDF
 This work was presented in the Anual Argentinian meeting of Physics. The poster is shown below and shows in proper detail what has been done.
-<a href="lorenzgutierrez.github.io/_post/Simulaciones_de_Monte_Carlo.pdf" target="_blank">PDF.</a>
+<a href="/lorenzgutierrez.github.io/_post/Simulaciones_de_Monte_Carlo.pdf" target="_blank">PDF.</a>
 
 
 ## To Do
