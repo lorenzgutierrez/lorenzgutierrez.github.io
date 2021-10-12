@@ -7,7 +7,7 @@ gh-repo: lorenzgutierrez/Sindy
 gh-badge: [star, fork, follow]
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
-tags: [Sindy, Data analysis, Lasso, Clustering]
+tags: [Sindy, Data analysis, Lasso, Clustering, Time signals]
 ---
 
 My PhD director developed a beautiful algorithm named `Wave_clus` writen in matlab that basically clusterizes the signals comming from electrodes in brain's patients in order to diferentiate the activity of those neurons. The problem with this algorithm is that can't decide what "cluster" is effectively a neuron cluster or a noise cluster.
