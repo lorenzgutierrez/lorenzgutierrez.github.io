@@ -35,6 +35,8 @@ Literally, Sindy is a framework that fits models to data. The parameter values o
 
 ![Figure 4](/assets/Figuras/Sindy_equation.png)
 
+and
+
 ![Figure 5](/assets/Figuras/Sindy_equation2.png)
 
 as previous research showed that with this model many neuronal dynamics should be contained for different values of the parameters.
