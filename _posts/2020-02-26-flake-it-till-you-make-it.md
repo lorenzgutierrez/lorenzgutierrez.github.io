@@ -34,13 +34,14 @@ Sindy is a novel framework to discover governing equations underlying a dynamica
 Literally, Sindy is a framework that fits models to data. The parameter values of that model is what we were looking for. In this case, our model was of the form
 
 ![Figure 4](<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\begin{equation}&space;\dot{x}&space;=&space;y&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\begin{equation}&space;\dot{x}&space;=&space;y&space;\end{equation}" title="\begin{equation} \dot{x} = y \end{equation}" /></a>)
+![Figure 5](<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{120}&space;\begin{equation}&space;\dot{y}&space;=&space;a&space;&plus;&space;bx&space;&plus;&space;cy&space;&plus;&space;dxy&space;&plus;&space;e&space;y^2&space;&plus;&space;x^2y&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{120}&space;\begin{equation}&space;\dot{y}&space;=&space;a&space;&plus;&space;bx&space;&plus;&space;cy&space;&plus;&space;dxy&space;&plus;&space;e&space;y^2&space;&plus;&space;x^2y&space;\end{equation}" title="\begin{equation} \dot{y} = a + bx + cy + dxy + e y^2 + x^2y \end{equation}" /></a>)
 
 as previous research showed that with this model many neuronal dynamics should be contained for different values of the parameters.
 
 ## Results
 While the parameters of the model were determinated for each cluster, the solutions were highly unstable, leading to a bad predictor for new data. Besides that, I was surprised to see how easy and powerful Sindy is, as is clear that the results are close enough to the true solution in the parameter space. I used an interpolation of the signals to see if an stable solution to the dynamics could be obtained, but there were not significal improvements. 
 
-![Figure 5](/assets/Figuras/Sindy_result.png)
+![Figure 6](/assets/Figuras/Sindy_result.png)
 
 ## To do
 I am quite sure that this SHOULD work, probably expending more time in this project will give better results. Probably another model could be used. Instead of using LASSO other method may improve the stability of the solution. I enjoyed a lot this project.
