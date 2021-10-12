@@ -1,0 +1,50 @@
+---
+layout: post
+title: Black-Scholes
+subtitle: Python werbscrapping script to make investments
+gh-repo: lorenzgutierrez/Black-Scholes
+gh-badge: [star, fork, follow]
+tags: [test]
+comments: false
+---
+
+I was interested in investing in calls and puts, but I was not sure which was the amount of money I should be offering for them. That is how I came with the [Black Scholes equation](https://en.wikipedia.org/wiki/Black%E2%80%93Scholes_model). I made a script that basically connects with a broker API and gets information about calls and puts, the current price of the stock market, and volatility. Later, it stores all the info and perform the calculations using the Black Scholes formula. Finally it displays which calls (puts) are being sold for less than the BS formula.
+
+**This was the first time I did webscrapping**
+
+## Lets look at the data
+I ussually use [bullmarketbrokers](www.bullmarketbrokers.com) as my main broker.
+
+In a normal day we can see a table like this one for the stock market
+
+![Figure 1-1](/assets/Figuras/BS2.png "Title"){: .mx-auto.d-block :}
+
+and like this for puts and calls
+
+![Figure 1-2](/assets/Figuras/BS1.png "Title"){: .mx-auto.d-block :}
+
+So at the end we have almost all the data required to perform the calculations using the BS formula, but the volatility. 
+
+## Volatility
+The volatility of each stock is not something that you can obtain from the broker. There are some [websites](https://www.iamc.com.ar/informediario/) that continously publish reports about stocks. So the script downloads the report (.pdf) and extracts the volatility of the last 52 weeks for all the main stocks and appends them to the data we already got.
+
+![Figure 1-3](/assets/Figuras/Reporte.png "Title"){: .mx-auto.d-block :}
+
+## The scripts
+I made use of `pandas`,`numpy`, `math` for data analysis, and `request`,`BeautifulSoup` for webscrapping.
+
+All the data is gathered and stored locally by simply running *Data_opciones.py*
+
+Later, by running *Opciones.py* the output is like follows
+
+~~~
+Opcion  Venta  Target Vencmt.     PA     Vol  Teorico    %VT
+12    BMA   0.30   250.0      OC  250.10  0.5009     5.67   5.29
+80    YPF   6.00   620.0      OC  734.25  0.4261   116.49   5.15
+91    YPF   0.05   800.0      OC  734.25  0.4261     0.40  12.50
+~~~
+
+Personally I would not invest in a day like this one, the market is having a very bad time these months.
+
+## To Do
+I consider this project to be finished.
