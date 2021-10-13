@@ -3,6 +3,7 @@ layout: post
 title: Montecarlo simulation
 subtitle: 2D montecarlo simulation for a system with interactions.
 cover-img: /assets/Figuras/Montecarlo_portada.png
+thumbnail-img: /assets/img/Montecarlo_thumbnail.jpeg
 gh-repo: lorenzgutierrez/Montecarlo
 gh-badge: [star, fork, follow]
 tags: [Simulation, Montecarlo]
