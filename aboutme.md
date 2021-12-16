@@ -2,7 +2,7 @@
 layout: page
 title: About me
 subtitle: War is not about what is right, is about who is left.
-cover-img: /assets/Figuras/Lorenzo.jpeg
+cover-img: /assets/Figuras/Lorenzo.jpeg : "Ushuaia, December 2021"
 ---
 
 My name is Lorenzo Gutierrez, born in August 1994.
