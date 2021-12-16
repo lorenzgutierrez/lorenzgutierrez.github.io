@@ -25,3 +25,5 @@ Later, I started a PhD in Neuroscience in the Shanghai Jiao Tong University, in 
 Since the start of the quarantine I continued working with data gathered prior to the pandemic and giving online lectures of computational neuroscience, as my knowledge in programming and modeling is something highly regarded in this field.
 
 These days I want to apply my knowledege in a company or bussiness. I want to do data science in real world problems. This is something I always wanted to do, and I know I will be doing after my PhD, but I have the time and opportunity to do it now since is not probable I will be able to go back to China until 2022.
+
+[](/assets/Lorenzo.jpeg)
