@@ -11,7 +11,6 @@ My name is Lorenzo Gutierrez, born in August 1994.
 - Linux
 - Vegetarian
 - Cats!!
-- Usually everything I need fits in a bag
 
 
 ### My story
