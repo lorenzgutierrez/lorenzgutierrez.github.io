@@ -3,6 +3,7 @@ layout: post
 title: Supply chain for pharmaceutical company
 subtitle: Solved using and gurobi based software and results presented using PBI
 thumbnail-img: /assets/img/covid.jpeg
+cover-img: /assets/img/Pharmaceutical_portada.jpeg
 gh-badge: [star, fork, follow]
 tags: [Data Science, Optimization, Supply Chain]
 comments: false
