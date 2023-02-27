@@ -86,6 +86,6 @@ Probably the most difficult part of the project, tecnically speaking, as I had t
 I made a demo of this implementation with good results, the new embedding outperdormed OHE, although with a time cost that increased the run time of the survival model up to 10 minutes compared with 4 minutes in the case of OHE. This was not a huge problem as the model was not intended to be run frequently.
 
 ## Visualization and supply chain
-Lastly, the visualization of the graph was done using the ![bokeh](https://docs.bokeh.org/en/latest/) package in a similar fashion as seen below. The graph was interactive and dynamic, meaning that all the evolution of the model across different years can be seen in the graph.
+Lastly, the visualization of the graph was done using the [bokeh](https://docs.bokeh.org/en/latest/) package in a similar fashion as seen below. The graph was interactive and dynamic, meaning that all the evolution of the model across different years can be seen in the graph.
 ![Figure 1](/assets/Figuras/bokeh_graph.gif)
 
