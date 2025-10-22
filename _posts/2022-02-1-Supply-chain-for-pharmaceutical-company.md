@@ -9,14 +9,29 @@ tags: [Data Science, Optimization, Supply Chain]
 comments: false
 ---
 
-First project on Accenture. Due to pandemic, one of the biggest and most important pharmaceutical companies in the world, wanted to improve their vaccines routes across the globe. The vaccines were delivered in different packages and formulas across the globe, with USA being its principal market. The client required to develop an optimization problem to outperform their current calculations (doing in excel), as well as an overview with the main outputs of the model in PBI. During my stay in the projectwe developed a model focused minimizing the shortage of vaccines and the amount of shipments without taking care of the cost. We had a lot of meetings gathering client data and requirements as well as connecting our model to the client database. The solution was presented using [Riverlogic](https://www.riverlogic.com/), a Gurobi based software for supply chain problems.
+This was my first project at Accenture. Due to the pandemic, one of the world's largest pharmaceutical companies wanted to optimize their vaccine distribution routes across the globe. The vaccines were delivered in different packages and formulations worldwide, with the USA being the principal market.
+
+The client needed an optimization solution to outperform their current Excel-based calculations, along with a Power BI dashboard to visualize the model's main outputs. During the project, we developed a model focused on minimizing vaccine shortages and the number of shipments, without primarily optimizing for cost.
+
+We held numerous meetings to gather client data and requirements, as well as to connect our model to the client's database. The solution was implemented using [Riverlogic](https://www.riverlogic.com/), a Gurobi-based software platform for supply chain optimization.
 
 ## Data
-Although the data was confidential, the input data was presented in an excel, were most of the constrains and model requirements were explicited. The issues were mainly missing or incorrect data provided by the client, as well as continues format updates of it, making the ETL scripts to be modified to acomodate to such changes. Also, a trade off between usability and data quality efficiency had to be taken into account all the time.
+
+Although the data was confidential, the input data was provided in Excel files where most of the constraints and model requirements were specified. The main challenges were missing or incorrect data from the client, as well as continuous format updates, which required constant modifications to our ETL scripts to accommodate these changes. We also had to continuously balance the trade-off between usability and data quality efficiency.
 
 ## Analysis
-Although Riverlogic was used for the model optimization, a big part of the project consisted on an ETL were user input data was processed using a python script so the output file was ready to be fed into Riverlogic. A huge part of the model was also explicited in ths script, and user data validation was also implemented in this step. Is important to mentionate that the python script was run in different ways, depending on the user desires, it could be run by pressing a button in the user input excel (VBA was used) or was automatically run when the input file was uploaded into Riverlogic servers, in both cases I was part of this development.
+
+Although Riverlogic was used for the model optimization, a significant part of the project consisted of an ETL pipeline where user input data was processed using Python scripts to prepare the output file for Riverlogic. A substantial portion of the model logic was also implemented in these scripts, including user data validation.
+
+It's important to mention that the Python script could be executed in different ways, depending on user preferences:
+- By pressing a button in the user input Excel file (using VBA)
+- Automatically when the input file was uploaded to Riverlogic servers
+
+I was involved in the development of both execution methods.
 
 ## The Riverlogic Model
-Probably the most difficult part of the project, tecnically speaking, as I had to learn new software, connecting the outputs and inputs to Riverlogic servers and creating a lot of SQL querys. We closely work with Riverlogic`s top developers, developing the model after continues feedback from the client. The results were considered succesful by the client, as important characteristics and behaviours observed by them in the reality (supply shortage, filled warehouses, production rates) were captured by our model.
+
+This was probably the most technically challenging part of the project. I had to learn new software, connect the inputs and outputs to Riverlogic servers, and create numerous SQL queries. We worked closely with Riverlogic's top developers, iteratively developing the model based on continuous client feedback.
+
+The results were considered successful by the client, as our model accurately captured important real-world characteristics and behaviors they observed, including supply shortages, warehouse capacity utilization, and production rates.
 

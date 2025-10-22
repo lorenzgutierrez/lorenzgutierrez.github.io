@@ -10,11 +10,17 @@ tags: [Simulation, Montecarlo]
 comments: false
 ---
 
-This was perhaps the first proper simulation I and other students did. Together we implemented a well known and simple statistical model using Montecarlo, considering diferent interactions and taking into account the effect of the temperature in its behaviour. This model consists in N particles with 2 or more energy levels. The case with no interaction has analytical solution, while the simulation propiced a good starting point to study the case with complex interactions between particles.
+This was perhaps the first proper simulation I and other students completed during our physics studies. Together we implemented a well-known statistical model using Monte Carlo methods, considering different particle interactions and analyzing how temperature affects the system's behavior.
 
-## PDF
-This work was presented in the Anual Argentinian meeting of Physics. The poster is shown below and shows in proper detail what has been done.
-<a href="https://github.com/lorenzgutierrez/lorenzgutierrez.github.io/blob/gh-pages/_posts/Simulaciones_de_Monte_Carlo.pdf" target="_blank">PDF.</a>
+## The Model
 
-## To Do
-I consider this project to be finished.
+The system consists of N particles, each with 2 or more energy levels. While the case with no interaction between particles has an analytical solution, the simulation provided an excellent starting point to study more complex scenarios where particles interact with each other.
+
+## Results & Presentation
+
+This work was presented at the Annual Argentinian Physics Meeting. The poster below shows in detail the methodology, results, and conclusions of our simulation.
+
+<a href="https://github.com/lorenzgutierrez/lorenzgutierrez.github.io/blob/gh-pages/_posts/Simulaciones_de_Monte_Carlo.pdf" target="_blank">View the full poster (PDF)</a>
+
+## Status
+This project is completed.
