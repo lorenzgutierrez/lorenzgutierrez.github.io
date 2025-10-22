@@ -91,6 +91,6 @@ This was my **first recommendation system** - approaching it from first principl
 
 ## Reflection
 
-This project demonstrated that fresh perspective combined with solid data science fundamentals can deliver transformative business results. By focusing on the actual business problem rather than applying template solutions, we created a system that continues to drive significant value for millions of users.
+This project demonstrated that a fresh perspective combined with solid data science fundamentals can deliver transformative business results. By focusing on the actual business problem rather than applying template solutions, we created a system that continues to drive significant value for millions of users.
 
-The experience reinforced the importance of leadership in data science - technical excellence must be paired with stakeholder management, strategic thinking, and the ability to navigate both client skepticism and complex operational constraints.
+The experience reinforced the importance of leadership in data science—technical excellence must be paired with stakeholder management, strategic thinking, and the ability to navigate both client skepticism and complex operational constraints.
